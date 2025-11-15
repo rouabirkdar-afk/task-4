@@ -11,9 +11,9 @@
 .circl {
     width: 400px !important;
     height: 400px !important;
-    border-radius: 50%;
-    background-image: radial-gradient(circle, #8eadd54d, #ffffff2d);
-    position: absolute;
+    border-radius: 50% !important;
+    background-image: radial-gradient(circle, #8eadd54d, #ffffff2d) !important;
+    position: absolute !important;
     top: -170%;
     left: -24%;
 }
@@ -25,9 +25,9 @@
 .circl2 {
     width: 500px !important;
     height: 500px !important;
-    border-radius: 50%;
-    background-image: radial-gradient(circle, #8eadd54d, #ffffff2d);
-    position: absolute;
+    border-radius: 50% !important;
+    background-image: radial-gradient(circle, #8eadd54d, #ffffff2d) !important;
+    position: absolute !important;
     top: -120px;
     left: -70px;
 }
@@ -38,35 +38,34 @@
 }
 
 .footer {
-    height: 443px;
+    height: 443px !important;
 }
 
 .slider1 {
-    height: 565px !important;
+    height: 665px !important;
 }
 
 @media (max-width:992px) {
     .footer {
         width: 100%;
-        height: 1000px;
-        text-align: center;
-        padding-top: 100px;
+        height: 1000px !important;
+        text-align: center !important;
+        padding-top: 100px !important;
     }
 
     .section {
         margin-bottom: 120px;
-        height: 665px;
-        text-align: center;
+        height: 665px !important;
+        text-align: center !important;
     }
 
     .sec {
         width: 100% !important;
-        margin: 0px;
     }
 
     .sec1 {
         height: 350px;
-        align-items: center;
+        align-items: center !important;
     }
 
     .slider1 {
